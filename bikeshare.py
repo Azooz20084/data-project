@@ -26,7 +26,8 @@ def get_filters():
     while True:
         city = input("\nWhich city would you like to analyze? New York City, Chicago, or Washington?\n").lower()
         if city not in CITY_DATA:
-            print("Sorry, you chose the wrong city.")
+        ####change city with choice
+          print("Sorry, you chose the wrong choice.")
             continue
         else:
             break
